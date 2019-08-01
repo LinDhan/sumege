@@ -1,2 +1,2 @@
 <!--pages/community/community.wxml-->
-<text hidden='{{footControl!=3}}'>pages/community/community.wxml</text>
+<text>pages/community/community.wxml</text>

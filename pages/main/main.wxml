@@ -1,6 +1,0 @@
-<!--pages/main/main.wxml-->
-<include src="../community/community.wxml"  />
-<include src="../works/works.wxml"  />
-<include src="../spacialty/spacialty.wxml"  />
-<include src="../inquire/inquire.wxml"  />
-<include src="../../common/components/foot.wxml"/>

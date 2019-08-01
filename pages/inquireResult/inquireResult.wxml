@@ -1,0 +1,18 @@
+<!--pages/inquireResult/inquireResult.wxml-->
+<view class='info-top'>
+<text>学号：{{stuNo}}</text>
+<text>姓名：{{name}}</text>
+<text>班级：{{classNo}}</text>
+</view>
+
+<view class='info-mid'>
+<view class='info-title'>辅导员信息</view>
+<text>姓名：{{teaName}}</text>
+<text>手机：{{teaPhoneNum}}</text>
+</view>
+
+<view class='info-bot'>
+<view class='info-title'>宿舍号</view>
+<view class='dormitory-info'>
+</view>
+</view>

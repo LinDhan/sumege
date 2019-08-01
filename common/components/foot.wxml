@@ -1,6 +1,0 @@
-<div style='background:blue;display:flex;position:fixed;bottom:0;width:100%;height:100rpx;text-align:center;'>
-  <div style='color:white;flex:1;line-height:100rpx;' bindtap='onFootClick' data-type='0'>专业</div>
-  <div style='color:white;flex:1;line-height:100rpx;' bindtap='onFootClick' data-type='1'>查找</div>
-  <div style='color:white;flex:1;line-height:100rpx;' bindtap='onFootClick' data-type='2'>作品</div>
-  <div style='color:white;flex:1;line-height:100rpx;' bindtap='onFootClick' data-type='3'>社区</div>
-</div>

@@ -1,2 +1,5 @@
 <!--pages/inquire/inquire.wxml-->
-<text hidden='{{footControl!=1}}'>pages/inquire/inquire.wxml</text>
+
+<view class='label'>请输入你的学号：</view>
+<input class="inputStuNo" placeholder="示例：3119000000" maxlength="10" bindinput="stuNoInput" />
+<button bindtap="inquire">Go！</button>

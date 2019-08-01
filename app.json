@@ -1,16 +1,49 @@
 {
   "pages": [
-        "pages/main/main",
-    "pages/community/community",
-    "pages/works/works",
+    "pages/spacialty/spacialty",
+    "pages/inquireResult/inquireResult",
     "pages/inquire/inquire",
-    "pages/spacialty/spacialty"
+    "pages/community/community",
+    "pages/works/works"
+    
+    
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Sumege",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#e85e5e",
+    "list": [
+      {
+        "pagePath": "pages/spacialty/spacialty",
+        "text": "专业",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/works/works",
+        "text": "作品",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/inquire/inquire",
+        "text": "查询",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }

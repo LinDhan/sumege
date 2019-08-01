@@ -1,2 +1,2 @@
 <!--pages/works/works.wxml-->
-<text hidden='{{footControl!=2}}'>pages/works/works.wxml</text>
+<text>pages/works/works.wxml</text>

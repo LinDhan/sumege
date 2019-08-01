@@ -1,1 +1,31 @@
 /* pages/inquire/inquire.wxss */
+
+page {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputStuNo {
+  font-size: 14px;
+  border: 1px solid #888;
+  width: 400rpx;
+  height: 80rpx;
+  padding-left: 20rpx;
+  margin-top: 40rpx;
+}
+
+.label {
+  font-size: 18px;
+  color: #a85e5e;
+}
+
+button {
+  margin-top: 40rpx;
+  width: 160rpx;
+  font-size: 14px;
+  color: #fff;
+  background-color: #a85e5e;
+}
