@@ -4,16 +4,15 @@
     "pages/inquireResult/inquireResult",
     "pages/inquire/inquire",
     "pages/community/community",
-    "pages/works/works"
-    
-    
-    
+    "pages/works/works",
+    "pages/works/works_page/works_page"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#a45f71",
     "navigationBarTitleText": "Sumege",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#666",
@@ -44,6 +43,12 @@
         "selectedIconPath": ""
       }
     ]
+  },
+  "plugins":{
+      "tencentVideo": {
+        "version": "1.3.6",
+        "provider": "wxa75efa648b60994b"    
+      }
   },
   "sitemapLocation": "sitemap.json"
 }

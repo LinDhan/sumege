@@ -1,1 +1,104 @@
 /* pages/works/works.wxss */
+/* 选项卡样式 */
+
+.works_nav{
+  height: 80rpx;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    line-height: 80rpx;
+    background: #dfe4e9;
+    font-size: 30rpx;
+    white-space: nowrap; 
+    position:fixed;
+    top:0;
+    z-index: 1
+}
+/* 滑块样式 */
+
+.works_tab{           
+    height: auto;
+    margin-left: 50rpx;
+    font-size: 30rpx;
+    text-align: center;
+    display: inline-block;
+    color: #6f866f
+  } 
+
+/* 滑块选中时样式 */
+
+.works_tabBorer{
+    color: #a45f71
+}
+
+/* 选项卡对应页面 */
+
+.works_swiper{
+    height: 1100rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    padding-top: 80rpx; 
+    z-index: 0
+}
+
+/* 上下滑动区域 */
+
+.works_col{ 
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;   
+    overflow: auto;
+    line-height: 50rpx;
+    white-space: nowrap;
+}
+
+/* 作品区 */
+
+.works_rect{
+    width: 95%;
+    height: 190rpx; 
+    display: flex;
+    margin: 25rpx 2.5% 45rpx 2.5%;
+    flex-direction: row;
+}
+
+/* 作品图片区 */
+
+.works_rect_img{
+    height: 190rpx;
+    width: 190rpx;
+}
+
+/* 图片大小 */
+
+.works_img{
+    height: 160rpx;
+    width: 160rpx;
+    margin: 10rpx;
+}
+/* 作品介绍区及分区 */
+
+.works_rect_text{
+    height: 190rpx;
+    width: 100%;
+    margin-left: 10rpx;
+    display: flex;
+    flex-direction: column;
+}
+.works_rect_title{
+  height:60rpx;
+  margin-top:10rpx;
+  align-items:flex-start;
+  font-size: 45rpx;
+  color: #a45f71
+}
+.works_rect_text1{
+    height: 105rpx;
+    width: 100%;
+    font-size: 35rpx;
+    display: flex;
+    align-items: flex-end;
+    word-break: break-all;
+    white-space: normal
+}

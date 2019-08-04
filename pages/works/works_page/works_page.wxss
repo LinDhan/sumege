@@ -1,0 +1,51 @@
+@import "../works.wxss";
+/* 作品标题 */
+
+.works_page_title{
+    height: 50rpx;
+    width: 50%;
+    background: #b37183;
+    margin-top: 15rpx;
+    margin-left: 40rpx;
+    border-radius: 30rpx;
+}
+
+/* 作者区域 */
+
+.works_page_author{
+    height: 200rpx;
+    width: 100%;
+    margin-top: 40rpx;
+    display: flex;
+    flex-direction: row；
+}
+
+
+/* 作者介绍区 */
+
+.works_page_author_message{
+    height: 200rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 作品展示区 */
+
+.works_page_show{
+    height: 500rpx;
+    width: 98%;
+    margin-top: 40rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 作品介绍 */
+
+.works_page_include{
+    height: 100%;
+    width: 90%;
+    border-radius: 30rpx;
+    margin:35rpx 5%;
+    background: #f2f2f2;
+}

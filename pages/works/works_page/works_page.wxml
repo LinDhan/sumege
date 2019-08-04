@@ -1,0 +1,55 @@
+<view class='container' style='padding:0'>
+
+  <!-- 作者 -->
+
+  <view class='works_page_author'>
+    <view class='works_rect_img' style='margin-left: 30rpx;'>
+      <image class='works_img' src='../play.png'></image>
+    </view>
+    <view class='works_page_author_message'>
+      <view class='works_page_title'>
+        <text decode='{{true}}'>&nbsp;&nbsp;作者</text>
+      </view>
+      <view class='works_page_title'>
+        <text decode='{{true}}'>&nbsp;&nbsp;班级</text>
+      </view>
+      <view class='works_page_title'>
+        <text decode='{{true}}'>&nbsp;&nbsp;介绍</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 作品 -->
+
+  <view class='works_page_show'>
+    <view class='works_page_title' style='width: 30%; margin-left: 20rpx;'>
+      <text decode='{{true}}'>&nbsp;&nbsp;作品展示</text>
+    </view>
+    <view style='height:400rpx;width:98%;margin:35rpx 1%;'>
+      <view wx:if='{{works_page_type=="video"}}'>
+        <txv-video style='width: 100%;height: 100%;' vid="{{works_page_videoSrc}}" playerid='txv1' autoplay="{{true}}"></txv-video>
+      </view>
+      <view wx:if='{{works_page_type=="image"}}'>
+        <swiper style='height:400rpx; width: 100%;' indicator-dots='{{true}}' autoplay='{{true}}' interval='4000'>
+          <block wx:for="{{works_page_imgSrc}}" wx:key='index'>
+            <swiper-item style='display: flex;justify-content: center;'>
+              <image style='height: 100%;' src='{{item.src}}'></image>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+    </view>
+  </view>
+
+  <!-- 作品介绍 -->
+
+  <view class='works_page_show' style='height: 800rpx;'>
+    <view class='works_page_title' style='width: 30%; margin-left: 20rpx;'>
+      <text decode='{{true}}'>&nbsp;&nbsp;作品介绍</text>
+    </view>
+    <view class='works_page_include'>
+      <text decode='{{true}}'>&nbsp;&nbsp;&nbsp;&nbsp;{{works_page_text}} \n </text>
+      <text decode='{{true}}'>&nbsp;&nbsp;&nbsp;&nbsp;ww</text>
+    </view>
+  </view>
+</view>
