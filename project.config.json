@@ -10,11 +10,18 @@
 		"minified": true,
 		"newFeature": true,
 		"autoAudits": false,
-		"checkInvalidKey": true
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.2",
-	"appid": "wxc68246b8ae58a819",
+	"appid": "wx7bcaf7c8741bf6cf",
 	"projectname": "Sumege",
 	"debugOptions": {
 		"hidedInDevtools": []

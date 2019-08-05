@@ -1,2 +1,128 @@
 <!--pages/works/works.wxml-->
-<text>pages/works/works.wxml</text>
+<view class='container' style='padding:0 '>
+
+  <!-- 选项卡 -->
+
+  <scroll-view scroll-x='true' class='works_nav' scroll-left='0' scroll-with-animation="{{true}}">
+    <view class='works_tab {{works_current == 0 ? "works_tabBorer" : ""}}' data-current='0' bindtap='checkCurrent'>游戏</view>
+    <view class='works_tab {{works_current == 1 ? "works_tabBorer" : ""}}' data-current='1' bindtap='checkCurrent'>三维动画</view>
+    <view class='works_tab {{works_current == 2 ? "works_tabBorer" : ""}}' data-current='2' bindtap='checkCurrent'>编程</view>
+    <view class='works_tab {{works_current == 3 ? "works_tabBorer" : ""}}' data-current='3' bindtap='checkCurrent'>影视</view>
+    <view class='works_tab {{works_current == 4 ? "works_tabBorer" : ""}}' data-current='4' bindtap='checkCurrent'>网页及APP</view>
+  </scroll-view>
+
+  <!-- 选项卡对应页面-->
+
+  <swiper current='{{works_current}}' class='works_swiper' duration='300' bindchange='bindChange'>
+
+    <!-- 游戏页面 -->
+
+    <swiper-item>
+      <scroll-view scroll-y='true' class='works_col' style='height:1100rpx' scroll-with-animation="{{true}}">
+        <block wx:for='{{works_game}}' wx:key='id'>
+          <view class='works_rect' data-works_page='{{item.id}}' bindtap="checkPage">
+            <view class='works_rect_img'>
+              <image class='works_img' src='{{item.img}}'></image>
+            </view>
+            <view class='works_rect_text'>
+              <view class="works_rect_title">
+                <text>{{item.title}}</text>
+              </view>
+              <view class='works_rect_text1'>
+                <text>{{item.text}}</text>
+              </view>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </swiper-item>
+
+    <!-- 三维动画页面 -->
+
+    <swiper-item>
+      <scroll-view scroll-y='true' class='works_col' style='height:1100rpx' scroll-with-animation="{{true}}">
+        <block wx:for='{{works_animation}}' wx:key='id'>
+          <view class='works_rect' data-works_page='{{item.id}}' bindtap="checkPage">
+            <view class='works_rect_img'>
+              <image class='works_img' src='{{item.img}}'></image>
+            </view>
+            <view class='works_rect_text'>
+              <view class="works_rect_title">
+                <text>{{item.title}}</text>
+              </view>
+              <view class='works_rect_text1'>
+                <text>{{item.text}}</text>
+              </view>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </swiper-item>
+
+    <!-- 编程页面 -->
+
+    <swiper-item>
+      <scroll-view scroll-y='true' class='works_col' style='height:1100rpx' scroll-with-animation="{{true}}">
+        <block wx:for='{{works_program}}' wx:key='id'>
+          <view class='works_rect' data-works_page='{{item.id}}' bindtap="checkPage">
+            <view class='works_rect_img'>
+              <image class='works_img' src='{{item.img}}'></image>
+            </view>
+            <view class='works_rect_text'>
+              <view class="works_rect_title">
+                <text>{{item.title}}</text>
+              </view>
+              <view class='works_rect_text1'>
+                <text>{{item.text}}</text>
+              </view>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </swiper-item>
+
+    <!-- 影视页面 -->
+
+    <swiper-item>
+      <scroll-view scroll-y='true' class='works_col' style='height:1100rpx' scroll-with-animation="{{true}}">
+        <block wx:for='{{works_film}}' wx:key='id'>
+          <view class='works_rect' data-works_page='{{item.id}}' bindtap="checkPage">
+            <view class='works_rect_img'>
+              <image class='works_img' src='{{item.img}}'></image>
+            </view>
+            <view class='works_rect_text'>
+              <view class="works_rect_title">
+                <text>{{item.title}}</text>
+              </view>
+              <view class='works_rect_text1'>
+                <text>{{item.text}}</text>
+              </view>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </swiper-item>
+
+    <!-- 网页及app页面 -->
+
+    <swiper-item>
+      <scroll-view scroll-y='true' class='works_col' style='height:1100rpx' scroll-with-animation="{{true}}">
+        <block wx:for='{{works_web}}' wx:key='id'>
+          <view class='works_rect' data-works_page='{{item.id}}' bindtap="checkPage">
+            <view class='works_rect_img'>
+              <image class='works_img' src='{{item.img}}'></image>
+            </view>
+            <view class='works_rect_text'>
+              <view class="works_rect_title">
+                <text>{{item.title}}</text>
+              </view>
+              <view class='works_rect_text1'>
+                <text>{{item.text}}</text>
+              </view>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+</view>
