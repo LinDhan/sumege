@@ -1,6 +1,6 @@
 // api.js
 
-const API_BASE_URL = 'https://xxx.com';
+const API_BASE_URL = 'http://localhost:3000/admin/api';
 
 const request = (url, data) => { 
 
@@ -13,7 +13,7 @@ const request = (url, data) => {
       method: "get",
       data: data,
       header: {
-        'Content-Type': 'application/x-www-form-urlencoded'
+        'Content-Type': 'application/json'
       },
       success(request) {
         resolve(request.data)
@@ -29,6 +29,6 @@ const request = (url, data) => {
 module.exports ={
     
   getStudentInfo:(data) =>{
-    return request('/search',data)    //查询接口
+    return request('/rest/students/'+data.stuNo,'')    //查询接口
   },
 }
