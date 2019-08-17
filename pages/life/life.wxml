@@ -1,0 +1,17 @@
+<!--  顶部标题  -->
+<view class="up-title"> 
+    <navigator url="../study/study"  open-type="redirect" class="btn-study" hover-class='color' >学习</navigator>
+    <text decode="true">&emsp;&emsp;</text>
+    <navigator url="../life/life" open-type="redirect"  hover-class='style1' style="border-bottom: 4rpx solid #A25D6D;color:#A25D6D;">生活</navigator>
+</view>
+<!--  图文并茂  -->
+  <view class='whole'>
+    <view class='single' wx:for="{{note}}" id="{{index}}" bindtap="toLife" >
+      <!--图片-->
+      <view class="photo"><image src='{{item.url}}' mode='widthFix'></image></view>
+      <!--标题-->
+      <text>{{item.title}}</text>
+      <!--爱心图标-->
+      <text class="icon-love"></text>
+    </view>
+  </view>  

@@ -1,0 +1,73 @@
+/*文本颜色*/
+page{
+  color: #2D2D2D;
+  font-size: 32rpx;
+  
+}
+/*文章标题样式*/
+.title-whole{
+  text-align: center;
+  font-size: 36rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  color:#A25D6D;
+  font-weight: bold;
+}
+/*作者介绍框样式*/
+.writer{
+  height: 160rpx;
+  border:3rpx solid #E6E9F0;
+  border-radius: 30rpx;
+  margin-left: 10%;
+  margin-right: 10%;
+  display:flex;                    
+  align-items: center;
+}
+/*作者头像样式*/
+.portrait image{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 100%;
+  float: left;
+  margin-left: 80rpx;
+  border:15rpx solid #A25D6D;
+}
+/*作者文字介绍*/
+.introduction{
+  float: right;
+}
+.area{
+  font-size: 24rpx;
+}
+/*单个框样式*/
+.words{
+  margin-top:20rpx;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/*图片样式*/
+.words image{
+ margin-top: 40rpx;
+ display:flex;                    
+ align-items: center;
+ width:600rpx;
+ height:450rpx;      
+}
+/*文案样式*/
+.words text{
+  line-height: 10rpx;
+  letter-spacing: 6rpx;
+}
+/*文案标题样式*/
+.title{
+  text-align: center;
+  color:#A25D6D;
+  margin-bottom: 20rpx;
+  font-weight: bold;
+}
+/*文案段落样式*/
+.passage{
+  text-align: justify;
+}
+
+
