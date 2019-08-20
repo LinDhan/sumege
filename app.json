@@ -3,9 +3,14 @@
     "pages/spacialty/spacialty",
     "pages/inquireResult/inquireResult",
     "pages/inquire/inquire",
-    "pages/community/community",
     "pages/works/works",
-    "pages/works/works_page/works_page"
+    "pages/works/works_page/works_page",
+    "pages/study/study",
+    "pages/study1/study1",
+    "pages/study2/study2",
+    "pages/life/life",
+    "pages/life1/life1",
+    "pages/life2/life2"
 
   ],
   "window": {
@@ -37,7 +42,7 @@
         "selectedIconPath": ""
       },
       {
-        "pagePath": "pages/community/community",
+        "pagePath": "pages/study/study",
         "text": "社区",
         "iconPath": "",
         "selectedIconPath": ""

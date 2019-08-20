@@ -1,0 +1,19 @@
+<!--顶部头像与昵称-->
+<view class="up-title"> 
+    <image class="portrait" src="https://i03piccdn.sogoucdn.com/d91ff5478ff3a6c9"></image>
+    <text decode="true">&emsp;泰荣呀</text>        
+</view> 
+<!--文章标题-->
+<view class="title-whole">{{title_whole}}</view>
+
+<!--图片-->
+<view class="photo">
+  <image src="http://pic1.win4000.com/wallpaper/b/574403390c8b6.jpg" mode='widthFix'></image>
+</view>
+
+<!--文案-->
+<view class="passage" wx:for="{{content}}">
+  <text decode="true">&emsp;&emsp;{{item.passage}}</text>
+</view>
+
+

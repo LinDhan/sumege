@@ -1,0 +1,17 @@
+<!--文章标题-->
+<view class="title-whole">{{title_whole}}</view>
+<!--作者介绍-->
+<view class="writer">
+    <view class="portrait"><image class="portrait" src='{{portrait}}'></image></view>
+    <view class="introduction">
+    <text decode="true">&emsp;{{name}}</text>
+    <text decode="true" class="area">{{area}}</text>
+    </view>      
+</view>
+<!--文章-->
+<view class="words" wx:for="{{content}}">
+  <view class="title">{{item.title}}</view>
+  <view class="passage"><text decode="true">{{item.passage}}</text></view>
+</view>
+
+
