@@ -1,0 +1,31 @@
+/* 整个页面的容器 */
+.f1_container{
+  width: 100%;
+}
+/* 课程卡信息（容器） */
+.f1_course{ 
+  width: 100%;
+  height: 320rpx;
+  margin: 5rpx 0;
+  border: 1px solid #BBBBBB;
+  position: relative;
+}
+/* 课程卡文字信息1（头顶备注+简介） */
+.f1_course_p1{
+  color: #8E9782;
+  font-size: 26rpx;
+  line-height: 60rpx;
+}
+/* 课程卡文字信息2（课程标题） */
+.f1_course_p2{
+  font-size: 34rpx;
+  line-height: 78rpx;
+  border-top: 1px dashed #999999;
+}
+/* 课程卡文字信息3（红字 更多信息） */
+.f1_course_p3{
+  color: #A85E5E;
+  font-size: 26rpx;
+  position: absolute;
+  bottom: 20rpx;
+}

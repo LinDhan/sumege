@@ -1,0 +1,59 @@
+/* 经验分享详情页 */
+.f3_jobs_share_details{
+  width: 90%;
+  margin: 0 auto;
+}
+.f3_jobs_share_details_title{
+  width: 100%;
+  font-size: 40rpx;
+  margin: 50rpx 0;
+  text-align: center;
+}
+/* 经验分享卡 */
+.f3_jobs_share{
+  width: 90%;
+  height: 200rpx;
+  margin: 40rpx auto;
+  border: 1px solid #BBBBBB;
+  border-radius: 25rpx;
+}
+/* 经验分享卡 左头像 */
+.f3_jobs_share_left{
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 30rpx;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  float: left;
+}
+/* 经验分享卡 左头像 */
+.f3_jobs_share_left_circle{
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 60rpx;
+  border: 2px solid #BBBBBB;
+}
+.f3_jobs_share_left_circle img{
+  
+}
+/* 经验分享卡 右（标题+作者） */
+.f3_jobs_share_right{
+  height: 200rpx;
+  line-height: 40rpx;
+  color: #A85E5E;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  float: left;
+}
+/* 文章段落样式 */
+.f3_jobs_share_details_p{
+  width: 100%;
+  font-size: 28rpx;
+  text-indent: 2em;
+  line-height: 45rpx;
+  text-indent: 2em;
+  text-align: justify;
+  letter-spacing: 3rpx;
+}

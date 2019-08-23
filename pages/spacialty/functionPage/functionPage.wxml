@@ -1,0 +1,48 @@
+<view class="f0_container">
+  <!-- 顶部装饰+标题+LOGO -->
+  <view class="f0_logo_img"></view>
+  <view class="f0_logo_text1">Sumege <text style="color: #C8A7B0; font-size: 25rpx;">/'su:meidʒ/</text></view>
+  <view class="f0_logo_text2">广东工业大学·数字媒体技术专业</view>
+
+  <view class="f0_background">
+    <view class="f0_logo_background_red" style="transform: translate(-50%, -40%);"></view>
+    <view class="f0_logo_background_red" style="transform: translate(12.5%, -40%);"></view>
+    <view class="f0_logo_background_red" style="transform: translate(75%, -40%);"></view>
+  </view>
+
+  <!-- 课程信息 -->
+  <navigator url="../function1/classInfo"  open-type='navigate' hover-class="none">
+    <view class="f0_choose">
+      <view class="f0_choose_left f0_choose_left_icon1"></view>
+      <view class="f0_choose_right">
+        <view class="f0_choose_right_text1">课程信息</view>
+        <view class="f0_choose_right_text2">数据来源：2017级数字媒体技术专业</view>
+      </view>
+    </view>
+  </navigator>
+
+  <!-- 专业方向 -->
+  <navigator url='../function2/majorDirc' open-type='navigate' hover-class="none">
+    <view class="f0_choose">
+      <view class="f0_choose_left f0_choose_left_icon2"></view>
+      <view class="f0_choose_right">
+        <view class="f0_choose_right_text1">专业方向</view>
+        <view class="f0_choose_right_text2">数据来源：2017级数字媒体技术专业</view>
+      </view>
+    </view>
+  </navigator>
+
+  <!-- 就业形势 -->
+  <navigator url='../function3/jobTrend' open-type='navigate' hover-class="none">
+    <view class="f0_choose">
+      <view class="f0_choose_left f0_choose_left_icon3"></view>
+      <view class="f0_choose_right">
+        <view class="f0_choose_right_text1">就业形势</view>
+        <view class="f0_choose_right_text2">数据来源：问卷调查及学院老师</view>
+      </view>
+    </view>
+  </navigator>
+
+  <view class="f0_foot">Copyright ©2019 GDUT All rights reserved.</view>
+
+</view>
