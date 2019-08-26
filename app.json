@@ -33,26 +33,26 @@
       {
         "pagePath": "pages/spacialty/functionPage/functionPage",
         "text": "专业",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "images/xiangqu.png",
+        "selectedIconPath": "images/xiangqu2.png"
       },
       {
         "pagePath": "pages/works/works",
         "text": "作品",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "images/youji.png",
+        "selectedIconPath": "images/youji2.png"
       },
       {
         "pagePath": "pages/inquire/inquire",
         "text": "查询",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "images/sousuo.png",
+        "selectedIconPath": "images/sousuo2.png"
       },
       {
         "pagePath": "pages/study/study",
         "text": "社区",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "images/smile.png",
+        "selectedIconPath": "images/smile2.png"
       }
     ]
   },
