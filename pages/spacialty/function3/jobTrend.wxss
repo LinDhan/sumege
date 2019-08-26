@@ -1,0 +1,92 @@
+/* 统计饼图-容器 */
+.style_charts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 统计图-标题样式 */
+.style_charts_title {
+  width: 480rpx;
+  color: white;
+  font-size: 40rpx;
+  text-align: center;
+  border-radius: 16rpx;
+  background-color: #A46271;
+  margin: 30rpx auto 0 auto;
+}
+/* 统计饼图-画布样式 */
+.canvas_pie {
+  width: 90%;
+  height: 700rpx;
+  transform: scale(1);
+  /* background-color: #E3E3E3; */
+}
+/* 全部按钮 容器 */
+.btn_container {
+  width: 96%;
+  margin: 16rpx auto;
+}
+/* 每排/层 按钮的样式 */
+.layout_btn {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  padding: 10rpx 0rpx;
+}
+/* 全部“详情按钮”的基本样式 */
+.style_btn_all {
+  width: 320rpx;
+  color: white;
+  font-size: 28rpx;
+  line-height: 52rpx;
+  /* display: inline-block; */
+  border-radius: 50rpx;
+  border: 0px;
+}
+.style_btn_all::after {
+  border: 0px;
+}
+/* “详情按钮” 颜色1~9 */
+.style_btn_color1 {
+  background-color: #A46271;
+}
+.style_btn_color2 {
+  background-color: #D99FAC;
+}
+.style_btn_color3 {
+  background-color: #8D6C77;
+}
+.style_btn_color4 {
+  background-color: #C6547A;
+}
+.style_btn_color5 {
+  background-color: #D5A7C7;
+}
+.style_btn_color6 {
+  background-color: #E699AB;
+}
+.style_btn_color7 {
+  background-color: #CB7693;
+}
+.style_btn_color8 {
+  background-color: #B3A2A6;
+}
+.style_btn_color9 {
+  background-color: #7C5D7C;
+}
+/* “详情按钮”的按下特效 */
+.hover_style_btn {
+  position: relative;
+  top: 3rpx;
+  box-shadow:0px 3rpx 3rpx #ADADAD; 
+  /* border: 1px solid #AA6F76; */
+}
+/* 数据来源 */
+.f3_text {
+  width: 100%;
+  text-align: center;
+  font-size: 24rpx;
+  color: #8E9782; 
+  /* position: absolute; 
+  bottom: 0rpx; */
+}

@@ -1,0 +1,48 @@
+<view class="f1_container">
+  
+  <view class="f1_course">
+    <view style="width:94%; margin: 0 auto;">
+      <view class="f1_course_p1">（涉及的软件/编程语言等）</view>
+      <view class="f1_course_p2">课程名</view>
+      <view class="f1_course_p1">课程介绍</view>
+      <view class="f1_course_p3">文字来源　时间 ｜ 其他信息</view>
+    </view>
+  </view>
+
+  <view class="f1_course">
+    <view style="width:94%; margin: 0 auto;">
+      <view class="f1_course_p1">（涉及的软件/编程语言等）</view>
+      <view class="f1_course_p2">课程名</view>
+      <view class="f1_course_p1">课程介绍</view>
+      <view class="f1_course_p3">文字来源　时间 ｜ 其他信息</view>
+    </view>
+  </view>
+
+  <view class="f1_course">
+    <view style="width:94%; margin: 0 auto;">
+      <view class="f1_course_p1">（涉及的软件/编程语言等）</view>
+      <view class="f1_course_p2">课程名</view>
+      <view class="f1_course_p1">课程介绍</view>
+      <view class="f1_course_p3">文字来源　时间 ｜ 其他信息</view>
+    </view>
+  </view>
+
+  <view class="f1_course">
+    <view style="width:94%; margin: 0 auto;">
+      <view class="f1_course_p1">（涉及的软件/编程语言等）</view>
+      <view class="f1_course_p2">课程名</view>
+      <view class="f1_course_p1">课程介绍</view>
+      <view class="f1_course_p3">文字来源　时间 ｜ 其他信息</view>
+    </view>
+  </view>
+
+  <view class="f1_course">
+    <view style="width:94%; margin: 0 auto;">
+      <view class="f1_course_p1">（涉及的软件/编程语言等）</view>
+      <view class="f1_course_p2">课程名</view>
+      <view class="f1_course_p1">课程介绍</view>
+      <view class="f1_course_p3">文字来源　时间 ｜ 其他信息</view>
+    </view>
+  </view>
+  
+</view>

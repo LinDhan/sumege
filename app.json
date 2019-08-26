@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/spacialty/spacialty",
+    "pages/spacialty/functionPage/functionPage",
     "pages/inquireResult/inquireResult",
     "pages/inquire/inquire",
     "pages/works/works",
@@ -10,7 +10,14 @@
     "pages/study2/study2",
     "pages/life/life",
     "pages/life1/life1",
-    "pages/life2/life2"
+    "pages/life2/life2",
+    "pages/spacialty/function1/classInfo",
+    "pages/spacialty/function1-1/classInfoDetail",
+    "pages/spacialty/function2/majorDirc",
+    "pages/spacialty/function2-1/majorDircDetail",
+    "pages/spacialty/function3/jobTrend",
+    "pages/spacialty/function3-1/jobTrendDetail",
+    "pages/spacialty/function3-1-1/jobTrendShare"
 
   ],
   "window": {
@@ -24,7 +31,7 @@
     "selectedColor": "#e85e5e",
     "list": [
       {
-        "pagePath": "pages/spacialty/spacialty",
+        "pagePath": "pages/spacialty/functionPage/functionPage",
         "text": "专业",
         "iconPath": "",
         "selectedIconPath": ""

@@ -1,0 +1,51 @@
+.f2_container2{
+  width: 90%;
+  margin: 0 auto;
+}
+/* 标题样式1（大标题） */
+.f2_direction_information_title{
+  display: inline-block;
+  color: white;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 40rpx;
+  border-radius: 20rpx;
+  margin: 35rpx 0rpx 10rpx 0rpx;
+  letter-spacing: 3rpx;
+  padding: 0 8rpx;
+  background-color: #A15D6C;
+} 
+/* 段落样式 */
+.f2_direction_information_p{
+  width: 100%;
+  font-size: 25rpx;
+  line-height: 45rpx;
+  text-indent: 2.5em;
+  text-align: justify;
+  padding: 5rpx 8rpx;
+  letter-spacing: 3rpx;
+}
+/* 具体就业方向介绍（容器） */
+.f2_direction_information_jobs{
+  width: 100%;
+  color: white;
+  border-radius: 40rpx;
+  border: 1px solid #BBBBBB;
+  margin-bottom: 30rpx;
+  padding-bottom: 20rpx;
+  background-color: #A46271;
+}
+/* 就业方向-标题样式2（小标题） */
+.f2_direction_information_jobs_title{
+  display: inline-block;
+  color: white;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 40rpx;
+  border-radius: 7rpx;
+  margin: 18rpx 0 8rpx 0rpx;
+  letter-spacing: 3rpx;
+  padding: 0 8rpx;
+  border-bottom: 2px solid #8E9782;
+  /* background: linear-gradient(#F2F2F2, #F2F2F2, #F2F2F2, #F2F2F2, #F5CE86); */
+}

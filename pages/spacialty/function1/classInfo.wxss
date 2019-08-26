@@ -1,0 +1,60 @@
+.f1_container{
+  width: 100%;
+}
+/* 方向卡（容器） */
+.f1_direction{
+  width: 560rpx;
+  height: 150rpx;
+  border: 1rpx solid #CE9EA2;
+  border-radius: 42rpx;
+  margin: 36rpx auto;
+  display:flex;
+  align-items:center;
+  position: relative;
+}
+/* 方向标题 */
+.f1_direction_title{
+  width: 220rpx;
+  height: 60rpx;
+  color: #9D2036;
+  font-size: 40rpx;
+  text-align: center;
+  border-bottom: 3px solid #8E9782;
+  float: left;
+  position: absolute;
+  left: 70rpx;
+}
+/* 白色的装饰圆 */
+.f1_circle_white{
+  width: 155rpx;
+  height: 155rpx;
+  border: 3rpx solid white;
+  border-radius: 50%;
+  background-color: white;
+  float: right;
+}
+/* 红色的装饰圆 */
+.f1_circle_red{
+  width: 155rpx;
+  height: 155rpx;
+  border: 3rpx solid white;
+  border-radius: 50%;
+  background-color: #A85E5E;
+  float: right;
+}
+/* 粉色的装饰圆 */
+.f1_circle_pink{
+  width: 155rpx;
+  height: 155rpx;
+  border-radius: 50%;
+  background-color: #CE9EA2;
+  float: right;
+}
+.f1_circle_pink_mini{
+  width: 55rpx;
+  height: 55rpx;
+  border: 3rpx solid white;
+  border-radius: 50%;
+  background-color: #CE9EA2;
+  float: right;
+}

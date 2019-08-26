@@ -1,0 +1,33 @@
+<view class="style_charts">
+  <view class="style_charts_title">数媒技近年就业形势一览</view>
+  <canvas canvas-id="canvas1" class="canvas_pie"></canvas>
+</view>
+<text style="font-size: 20rpx;">(统计图还没收到具体数据 现在是虚假的数据)</text>
+<view class="btn_container">
+  <view class="layout_btn">
+    <view><button class="style_btn_all" hover-class="none" plain>点击了解详情:</button></view>
+    <view><button bindtap="job1" class="style_btn_all style_btn_color1" hover-class="hover_style_btn">软件开发</button></view>
+  </view>
+
+  <view class="layout_btn">
+    <view><button bindtap="job2" class="style_btn_all style_btn_color2" hover-class="hover_style_btn">网页前端</button></view>
+    <view><button bindtap="job3" class="style_btn_all style_btn_color3" hover-class="hover_style_btn">游戏开发</button></view>
+  </view>
+
+  <view class="layout_btn">
+    <view><button bindtap="job4" class="style_btn_all style_btn_color4" hover-class="hover_style_btn">交互设计</button></view>
+    <view><button bindtap="job5" class="style_btn_all style_btn_color5" hover-class="hover_style_btn">虚拟现实与增强现实</button></view>
+  </view>
+
+  <view class="layout_btn">
+    <view><button bindtap="job6" class="style_btn_all style_btn_color6" hover-class="hover_style_btn">三维建模及动画</button></view>
+    <view><button bindtap="job7" class="style_btn_all style_btn_color7" hover-class="hover_style_btn">视频剪辑及后期制作</button></view>
+  </view>
+
+  <view class="layout_btn">
+    <view><button bindtap="job8" class="style_btn_all style_btn_color8" hover-class="hover_style_btn">影视特效制作</button></view>
+    <view><button bindtap="job9" class="style_btn_all style_btn_color9" hover-class="hover_style_btn">平面设计或艺术相关</button></view>
+  </view>
+</view>
+
+<view class="f3_text">（数据来源...）</view>
