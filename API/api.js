@@ -1,6 +1,6 @@
 // api.js
 
-const API_BASE_URL = 'http://localhost:3000/weixin/api';
+const API_BASE_URL = 'http://node.fl123.xyz/weixin/api';
 
 const request = (url) => {
 
@@ -11,6 +11,7 @@ const request = (url) => {
     wx.request({
       url: _url,
       method: "get",
+      data:'',
       header: {
         'Content-Type': 'application/json'
       },
