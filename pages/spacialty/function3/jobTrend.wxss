@@ -54,10 +54,10 @@
   background-color: #D99FAC;
 }
 .style_btn_color3 {
-  background-color: #8D6C77;
+  background-color: #C6547A;
 }
 .style_btn_color4 {
-  background-color: #C6547A;
+  background-color: #8D6C77;
 }
 .style_btn_color5 {
   background-color: #D5A7C7;

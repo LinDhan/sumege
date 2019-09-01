@@ -1,87 +1,95 @@
 <view class="f2_container">
   <view style="width:80%; margin: 0 auto;">
 
-    <navigator url="../function2-1/majorDircDetail" open-type='navigate' hover-class="none">
-      <view class="f2_direction">
-        <view class="f2_direction_title">软件开发</view>
-        <view class="f2_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f2_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f2_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
-      </view>
-    </navigator>
-
-    <view class="f2_direction">
-      <view class="f2_direction_title">网页前端</view>
-        <view class="f2_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f2_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f2_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
-    </view>
-
-    <view class="f2_direction">
-      <view class="f2_direction_title" style="font-size: 24rpx;">虚拟现实及增强现实</view>
-        <view class="f2_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f2_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f2_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
+    <view class="f2_dirc">
+      <view class="f2_dirc_title">软件开发</view>
+      <view class="f2_circle_pink" style="right: 73rpx;"></view>
+      <view class="f2_circle_white"  style="right: 30rpx;"></view>
+      <view class="f2_circle_red" style="right: -10rpx;"></view>
+      <view class="f2_circle_white"  style="right: -50rpx;"></view>
+      <view class="f2_circle_pink_mini" style="right: -0rpx;"></view>
+      <view class="f2_jump" bindtap="goNext" id="5d6a30e3f6a0b654bc07b6b6"></view>
     </view>
     
-    <view class="f2_direction">
-      <view class="f2_direction_title">游戏开发</view>
-        <view class="f2_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f2_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f2_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
+    <view class="f2_dirc">
+      <view class="f2_dirc_title">网页前端</view>
+        <view class="f2_circle_pink" style="right: 73rpx;"></view>
+        <view class="f2_circle_white"  style="right: 30rpx;"></view>
+        <view class="f2_circle_red" style="right: -10rpx;"></view>
+        <view class="f2_circle_white"  style="right: -50rpx;"></view>
+        <view class="f2_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f2_jump" bindtap="goNext" id="5d5807f7cbfe4e2e684c01ee"></view>
     </view>
     
-    <view class="f2_direction">
-      <view class="f2_direction_title">交互设计</view>
-        <view class="f2_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f2_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f2_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
+    <view class="f2_dirc">
+      <view class="f2_dirc_title">游戏开发</view>
+        <view class="f2_circle_pink" style="right: 73rpx;"></view>
+        <view class="f2_circle_white"  style="right: 30rpx;"></view>
+        <view class="f2_circle_red" style="right: -10rpx;"></view>
+        <view class="f2_circle_white"  style="right: -50rpx;"></view>
+        <view class="f2_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f2_jump" bindtap="goNext" id="5d5cbee50139952ac05dd624"></view>
     </view>
     
-    <view class="f2_direction">
-      <view class="f2_direction_title" style="font-size: 28rpx;">三维建模及动画</view>
-        <view class="f2_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f2_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f2_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
+    <view class="f2_dirc">
+      <view class="f2_dirc_title">交互设计</view>
+        <view class="f2_circle_pink" style="right: 73rpx;"></view>
+        <view class="f2_circle_white"  style="right: 30rpx;"></view>
+        <view class="f2_circle_red" style="right: -10rpx;"></view>
+        <view class="f2_circle_white"  style="right: -50rpx;"></view>
+        <view class="f2_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f2_jump" bindtap="goNext" id="5d5cbed70139952ac05dd623"></view>
     </view>
 
-    <view class="f2_direction">
-      <view class="f2_direction_title" style="font-size: 24rpx;">视频剪辑及后期制作</view>
-        <view class="f2_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f2_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f2_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
+    <view class="f2_dirc">
+      <view class="f2_dirc_title" style="font-size: 24rpx;">虚拟现实及增强现实</view>
+        <view class="f2_circle_pink" style="right: 73rpx;"></view>
+        <view class="f2_circle_white"  style="right: 30rpx;"></view>
+        <view class="f2_circle_red" style="right: -10rpx;"></view>
+        <view class="f2_circle_white"  style="right: -50rpx;"></view>
+        <view class="f2_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f2_jump" bindtap="goNext" id="5d5cbf120139952ac05dd625"></view>
+    </view>  
+      
+    <view class="f2_dirc">
+      <view class="f2_dirc_title" style="font-size: 28rpx;">三维建模及动画</view>
+        <view class="f2_circle_pink" style="right: 73rpx;"></view>
+        <view class="f2_circle_white"  style="right: 30rpx;"></view>
+        <view class="f2_circle_red" style="right: -10rpx;"></view>
+        <view class="f2_circle_white"  style="right: -50rpx;"></view>
+        <view class="f2_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f2_jump" bindtap="goNext" id="5d5cbfa10139952ac05dd626"></view>
+    </view>
+
+    <view class="f2_dirc">
+      <view class="f2_dirc_title" style="font-size: 24rpx;">视频剪辑及后期制作</view>
+        <view class="f2_circle_pink" style="right: 73rpx;"></view>
+        <view class="f2_circle_white"  style="right: 30rpx;"></view>
+        <view class="f2_circle_red" style="right: -10rpx;"></view>
+        <view class="f2_circle_white"  style="right: -50rpx;"></view>
+        <view class="f2_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f2_jump" bindtap="goNext" id="5d5cc0c30139952ac05dd627"></view>
     </view>
     
-    <view class="f2_direction">
-      <view class="f2_direction_title" style="font-size: 28rpx;">影视特效制作</view>
-        <view class="f2_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f2_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f2_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
+    <view class="f2_dirc">
+      <view class="f2_dirc_title" style="font-size: 28rpx;">影视特效制作</view>
+        <view class="f2_circle_pink" style="right: 73rpx;"></view>
+        <view class="f2_circle_white"  style="right: 30rpx;"></view>
+        <view class="f2_circle_red" style="right: -10rpx;"></view>
+        <view class="f2_circle_white"  style="right: -50rpx;"></view>
+        <view class="f2_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f2_jump" bindtap="goNext" id="5d5cc0ee0139952ac05dd628"></view>
     </view>
     
-    <view class="f2_direction">
-      <view class="f2_direction_title" style="font-size: 24rpx;">平面设计或艺术相关</view>
-        <view class="f2_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f2_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f2_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f2_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
+    <view class="f2_dirc">
+      <view class="f2_dirc_title" style="font-size: 24rpx;">平面设计或艺术相关</view>
+        <view class="f2_circle_pink" style="right: 73rpx;"></view>
+        <view class="f2_circle_white"  style="right: 30rpx;"></view>
+        <view class="f2_circle_red" style="right: -10rpx;"></view>
+        <view class="f2_circle_white"  style="right: -50rpx;"></view>
+        <view class="f2_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f2_jump" bindtap="goNext" id="5d5cc1280139952ac05dd629"></view>
     </view>
+    
   </view>
 </view>
