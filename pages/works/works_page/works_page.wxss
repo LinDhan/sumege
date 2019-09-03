@@ -3,7 +3,7 @@
 
 .works_page_title{
     height: 50rpx;
-    width: 50%;
+    width: 90%;
     background: #b37183;
     margin-top: 15rpx;
     margin-left: 40rpx;
