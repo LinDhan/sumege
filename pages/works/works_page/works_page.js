@@ -1,5 +1,5 @@
-const app = getApp();
 const txvContent = requirePlugin("tencentVideo");
+const API = require('../../../API/api');
 Page({
 
   /**
@@ -8,40 +8,60 @@ Page({
    */
 
   data: {
-      works_page_type: "",
-      works_page_text: "",
-      works_page_videoSrc: "",
-      works_page_imgSrc:[]
+      works_title: "",
+      works_cover: "",
+      works_author: "",
+      works_authorGrade: "",
+      works_authorDomain: "",
+      works_video: "",
+      works_images: "",
+      works_introduction: ""
+  },
+
+ 
+  getWorkDetails: function (works_ID){
+    API.getWorkDetails(works_ID).then(res => {
+      if (res!=''){
+        this.setData({
+          works_title: res.title,
+          works_cover: res.cover,
+          works_author: res.author,
+          works_authorGrade: res.authorGrade,
+          works_authorDomain: res.authorDomain,
+          works_video: res.video,
+          works_images: res.images,
+          works_introduction: res.introduction
+        })
+      }
+      else{
+        return false
+      }
+    })
   },
 
   /**
-   * 生命周期函数--监听页面加载
-   */
+    * 生命周期函数--监听页面加载
+    */
   onLoad: function (options) {
-      wx.setNavigationBarTitle({
-        title: '作品',
-      })
+    
+    wx.setNavigationBarTitle({
+      title: options.works_title,
+    })
+    this.getWorkDetails(options.works_ID)
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    
+
   },
 
   /**
    * 生命周期函数--监听页面显示
-   * 调用works页面修改好的全局变量
-   * 并赋值给当前页面的局部变量
    */
   onShow: function () {
-      this.setData({
-          works_page_type: app.globalData.works_type,
-          works_page_text: app.globalData.works_text, 
-          works_page_videoSrc: app.globalData.works_videoSrc,
-        works_page_imgSrc: app.globalData.works_imgSrc,
-      })
+    
   },
 
   /**

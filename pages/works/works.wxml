@@ -19,17 +19,17 @@
 
     <swiper-item>
       <scroll-view scroll-y='true' class='works_col' style='height:1100rpx' scroll-with-animation="{{true}}">
-        <block wx:for='{{works_game}}' wx:key='id'>
-          <view class='works_rect' data-works_page='{{item.id}}' bindtap="checkPage">
+        <block wx:for='{{works_list}}' wx:key='id'>
+          <view class='works_rect' data-worksID='{{item._id}}' data-worksTitle='{{item.title}}' bindtap="checkPage">
             <view class='works_rect_img'>
-              <image class='works_img' src='{{item.img}}'></image>
+              <image class='works_img' src='{{item.cover}}'></image>
             </view>
             <view class='works_rect_text'>
               <view class="works_rect_title">
                 <text>{{item.title}}</text>
               </view>
               <view class='works_rect_text1'>
-                <text>{{item.text}}</text>
+                <text>{{item.introduction}}</text>
               </view>
             </view>
           </view>
@@ -41,17 +41,17 @@
 
     <swiper-item>
       <scroll-view scroll-y='true' class='works_col' style='height:1100rpx' scroll-with-animation="{{true}}">
-        <block wx:for='{{works_animation}}' wx:key='id'>
-          <view class='works_rect' data-works_page='{{item.id}}' bindtap="checkPage">
+        <block wx:for='{{works_list}}' wx:key='id'>
+          <view class='works_rect' data-worksID='{{item._id}}' data-worksTitle='{{item.title}}' bindtap="checkPage">
             <view class='works_rect_img'>
-              <image class='works_img' src='{{item.img}}'></image>
+              <image class='works_img' src='{{item.cover}}'></image>
             </view>
             <view class='works_rect_text'>
               <view class="works_rect_title">
                 <text>{{item.title}}</text>
               </view>
               <view class='works_rect_text1'>
-                <text>{{item.text}}</text>
+                <text>{{item.introduction}}</text>
               </view>
             </view>
           </view>
@@ -63,17 +63,17 @@
 
     <swiper-item>
       <scroll-view scroll-y='true' class='works_col' style='height:1100rpx' scroll-with-animation="{{true}}">
-        <block wx:for='{{works_program}}' wx:key='id'>
-          <view class='works_rect' data-works_page='{{item.id}}' bindtap="checkPage">
+        <block wx:for='{{works_list}}' wx:key='id'>
+          <view class='works_rect' data-worksID='{{item._id}}' data-worksTitle='{{item.title}}' bindtap="checkPage">
             <view class='works_rect_img'>
-              <image class='works_img' src='{{item.img}}'></image>
+              <image class='works_img' src='{{item.cover}}'></image>
             </view>
             <view class='works_rect_text'>
               <view class="works_rect_title">
                 <text>{{item.title}}</text>
               </view>
               <view class='works_rect_text1'>
-                <text>{{item.text}}</text>
+                <text>{{item.introduction}}</text>
               </view>
             </view>
           </view>
@@ -85,17 +85,17 @@
 
     <swiper-item>
       <scroll-view scroll-y='true' class='works_col' style='height:1100rpx' scroll-with-animation="{{true}}">
-        <block wx:for='{{works_film}}' wx:key='id'>
-          <view class='works_rect' data-works_page='{{item.id}}' bindtap="checkPage">
+        <block wx:for='{{works_list}}' wx:key='id'>
+          <view class='works_rect' data-worksID='{{item._id}}' data-worksTitle='{{item.title}}' bindtap="checkPage">
             <view class='works_rect_img'>
-              <image class='works_img' src='{{item.img}}'></image>
+              <image class='works_img' src='{{item.cover}}'></image>
             </view>
             <view class='works_rect_text'>
               <view class="works_rect_title">
                 <text>{{item.title}}</text>
               </view>
               <view class='works_rect_text1'>
-                <text>{{item.text}}</text>
+                <text>{{item.introduction}}</text>
               </view>
             </view>
           </view>
@@ -107,17 +107,17 @@
 
     <swiper-item>
       <scroll-view scroll-y='true' class='works_col' style='height:1100rpx' scroll-with-animation="{{true}}">
-        <block wx:for='{{works_web}}' wx:key='id'>
-          <view class='works_rect' data-works_page='{{item.id}}' bindtap="checkPage">
+        <block wx:for='{{works_list}}' wx:key='id'>
+          <view class='works_rect' data-worksID='{{item._id}}' data-worksTitle='{{item.title}}' bindtap="checkPage">
             <view class='works_rect_img'>
-              <image class='works_img' src='{{item.img}}'></image>
+              <image class='works_img' src='{{item.cover}}'></image>
             </view>
             <view class='works_rect_text'>
               <view class="works_rect_title">
                 <text>{{item.title}}</text>
               </view>
               <view class='works_rect_text1'>
-                <text>{{item.text}}</text>
+                <text>{{item.introduction}}</text>
               </view>
             </view>
           </view>
