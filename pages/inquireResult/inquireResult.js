@@ -15,9 +15,7 @@ Page({
   },
 
   getStudentInfo: function(stuNo) {
-    API.getStudentInfo({
-      stuNo: stuNo //传到后台的参数，如果没有参数，则放空
-    }).then(res => {
+    API.getStudentInfo(stuNo).then(res => {
 
       //console.log(res)    //res是后台返回的数据
       if (res!='') {

@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 /* 标题样式1（大标题） */
-.f2_direction_information_title{
+.f2_dirc_info_title{
   display: inline-block;
   color: white;
   font-size: 28rpx;
@@ -16,7 +16,7 @@
   background-color: #A15D6C;
 } 
 /* 段落样式 */
-.f2_direction_information_p{
+.f2_dirc_info_p{
   width: 100%;
   font-size: 25rpx;
   line-height: 45rpx;
@@ -26,7 +26,7 @@
   letter-spacing: 3rpx;
 }
 /* 具体就业方向介绍（容器） */
-.f2_direction_information_jobs{
+.f2_dirc_info_jobs{
   width: 100%;
   color: white;
   border-radius: 40rpx;
@@ -36,7 +36,7 @@
   background-color: #A46271;
 }
 /* 就业方向-标题样式2（小标题） */
-.f2_direction_information_jobs_title{
+.f2_dirc_info_jobs_title{
   display: inline-block;
   color: white;
   font-size: 26rpx;

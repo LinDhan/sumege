@@ -1,10 +1,41 @@
 // pages/spacialty/function2-1/majorDircDetail.js
+
+const API = require('../../../API/api');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    success: false,
+    dircID: '',        //某专业方向的 ID号
+    introduction: '',  //某专业方向的 文字介绍
+    job: '',           //某专业方向的就业方向 文字介绍
+    jobDetails: [],    //某就业方向 工作名+工作内容
+  },
+
+  getSpeciality: function(dircID) {
+    API.getSpeciality({
+      dircID: dircID //传到后台的参数，如果没有参数，则放空
+    }).then(res => {
+
+      console.log(res)    //res是后台返回的数据
+      if (res!='') {
+        this.setData({
+          success: true,
+          dircID: dircID,
+          introduction: res.introduction,
+          job: res.job,
+          jobDetails: res.jobDetails,
+        })
+      } else {
+        this.setData({
+          success: false
+        })
+      }
+
+    })
 
   },
 
@@ -12,55 +43,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.getSpeciality(options.dircID)
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
 })
