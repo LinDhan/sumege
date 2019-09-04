@@ -2,7 +2,7 @@
   width: 100%;
 }
 /* 方向卡（容器） */
-.f2_direction{
+.f2_dirc{
   width: 560rpx;
   height: 150rpx;
   border: 1rpx solid #CE9EA2;
@@ -13,7 +13,7 @@
   position: relative;
 }
 /* 方向标题 */
-.f2_direction_title{
+.f2_dirc_title{
   width: 220rpx;
   height: 60rpx;
   color: #9D2036;
@@ -32,6 +32,7 @@
   border-radius: 50%;
   background-color: white;
   float: right;
+  position: absolute; 
 }
 /* 红色的装饰圆 */
 .f2_circle_red{
@@ -41,6 +42,7 @@
   border-radius: 50%;
   background-color: #A85E5E;
   float: right;
+  position: absolute; 
 }
 /* 粉色的装饰圆 */
 .f2_circle_pink{
@@ -49,6 +51,7 @@
   border-radius: 50%;
   background-color: #CE9EA2;
   float: right;
+  position: absolute; 
 }
 .f2_circle_pink_mini{
   width: 55rpx;
@@ -57,4 +60,11 @@
   border-radius: 50%;
   background-color: #CE9EA2;
   float: right;
+  position: absolute; 
+}
+/* 跳转层（用作bindtap） */
+.f2_jump {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
 }

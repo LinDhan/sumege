@@ -50,38 +50,26 @@
 /* 经验分享卡 */
 .f3_jobs_share{
   width: 90%;
-  height: 180rpx;
+  height: 80rpx;
   margin: 10rpx auto 40rpx auto;
+}
+/* 经验分享卡*/
+.f3_jobs_share_btn{
+  width: 100%;
+  height: 100%;
+  color: #A15D6C;
+  background-color: white;
+  font-size: 28rpx;
+  line-height: 80rpx;
   border: 1px solid #BBBBBB;
   border-radius: 25rpx;
 }
-/* 经验分享卡 左头像 */
-.f3_jobs_share_left{
-  width: 200rpx;
-  height: 100%;
-  margin-left: 30rpx;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  float: left;
+.f3_jobs_share_btn::after {
+  border: 0rpx;
 }
-/* 经验分享卡 左头像 */
-.f3_jobs_share_left_circle{
-  width: 110rpx;
-  height: 110rpx;
-  border-radius: 60rpx;
-  border: 2px solid #BBBBBB;
-}
-/* .f3_jobs_share_left_circle img{
-  
-} */
-/* 经验分享卡 右（标题+作者） */
-.f3_jobs_share_right{
-  height: 100%;
-  line-height: 45rpx;
-  color: #A85E5E;
-  display:flex;
-  flex-direction: column;
-  justify-content:center;
-  float: left;
+/* 按钮的按下特效 */
+.f3_hover_btn {
+  position: relative;
+  top: 3rpx;
+  box-shadow:0px 3rpx 3rpx #ADADAD;
 }

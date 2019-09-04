@@ -1,42 +1,44 @@
 <view class="f1_container">
   <view style="width:80%; margin: 0 auto;">
 
-    <navigator url="../function1-1/classInfoDetail" open-type='navigate' hover-class="none">
-      <view class="f1_direction">
-        <view class="f1_direction_title">大一课程</view>
-        <view class="f1_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f1_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f1_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f1_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f1_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
-      </view>
-    </navigator>
-
-    <view class="f1_direction">
-      <view class="f1_direction_title">大二课程</view>
-        <view class="f1_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f1_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f1_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f1_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f1_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
+    <view class="f1_lesson">
+      <view class="f1_lesson_title">大一课程</view>
+      <view class="f1_circle_pink" style="right: 73rpx;"></view>
+      <view class="f1_circle_white"  style="right: 30rpx;"></view>
+      <view class="f1_circle_red" style="right: -10rpx;"></view>
+      <view class="f1_circle_white"  style="right: -50rpx;"></view>
+      <view class="f1_circle_pink_mini" style="right: -0rpx;"></view> 
+      <view class="f1_jump" bindtap="goNext" id="1"></view>
     </view>
 
-    <view class="f1_direction">
-      <view class="f1_direction_title">大三课程</view>
-        <view class="f1_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f1_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f1_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f1_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f1_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
+    <view class="f1_lesson">
+      <view class="f1_lesson_title">大二课程</view>
+        <view class="f1_circle_pink" style="right: 73rpx;"></view>
+        <view class="f1_circle_white"  style="right: 30rpx;"></view>
+        <view class="f1_circle_red" style="right: -10rpx;"></view>
+        <view class="f1_circle_white"  style="right: -50rpx;"></view>
+        <view class="f1_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f1_jump" bindtap="goNext" id="2"></view>
+    </view>
+
+    <view class="f1_lesson">
+      <view class="f1_lesson_title">大三课程</view>
+        <view class="f1_circle_pink" style="right: 73rpx;"></view>
+        <view class="f1_circle_white"  style="right: 30rpx;"></view>
+        <view class="f1_circle_red" style="right: -10rpx;"></view>
+        <view class="f1_circle_white"  style="right: -50rpx;"></view>
+        <view class="f1_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f1_jump" bindtap="goNext" id="3"></view>
     </view>
     
-    <view class="f1_direction">
-      <view class="f1_direction_title">大四课程</view>
-        <view class="f1_circle_pink" style="position: absolute; right: 73rpx;"></view>
-        <view class="f1_circle_white"  style="position: absolute; right: 30rpx;"></view>
-        <view class="f1_circle_red" style="position: absolute; right: -10rpx;"></view>
-        <view class="f1_circle_white"  style="position: absolute; right: -50rpx;"></view>
-        <view class="f1_circle_pink_mini" style="position: absolute; right: -0rpx;"></view>
+    <view class="f1_lesson">
+      <view class="f1_lesson_title">大四课程</view>
+        <view class="f1_circle_pink" style="right: 73rpx;"></view>
+        <view class="f1_circle_white"  style="right: 30rpx;"></view>
+        <view class="f1_circle_red" style="right: -10rpx;"></view>
+        <view class="f1_circle_white"  style="right: -50rpx;"></view>
+        <view class="f1_circle_pink_mini" style="right: -0rpx;"></view>
+        <view class="f1_jump" bindtap="goNext" id="4"></view>
     </view>
     
   </view>

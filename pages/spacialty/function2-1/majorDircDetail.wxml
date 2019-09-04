@@ -1,21 +1,15 @@
 <view class="f2_container2">
 
-  <view class="f2_direction_information_title">方向介绍</view>
-  <view class="f2_direction_information_p"><text style="border-bottom:2px solid #C6C6C6;">软件开发是根据用户要求建造出软件系统或者系统中的软件部分的过程。软件开发是一项包括需求捕捉、需求分析、设计、实现和测试的系统工程。软件一般是用某种程序设计语来实现的。</text></view>
+  <view class="f2_dirc_info_title">方向介绍</view>
+  <view class="f2_dirc_info_p"><text style="border-bottom:2px solid #C6C6C6;">{{introduction}}</text></view>
 
-  <view class="f2_direction_information_title">具体就业方向</view>
-  <view class="f2_direction_information_p" style="margin-bottom: 15rpx;"><text style="border-bottom:2px solid #C6C6C6;">本专业毕业生适合的工作岗位是计算机程序设计师。适合于熟练地按照工程化的思路进行软件编制、软件测试的工作岗位，能担任各种企事业单位和各级工程建设部门、管理部门的计算机软件...具体可分为以下方面：</text></view>
+  <view class="f2_dirc_info_title">具体就业方向</view>
+  <view class="f2_dirc_info_p" style="margin-bottom: 15rpx;"><text style="border-bottom:2px solid #C6C6C6;">{{job}}</text></view>
 
-  <view class="f2_direction_information_jobs">
-    <view style="width:90%; margin: 0 auto;">
-      <view class="f2_direction_information_jobs_title">WEB应用程序设计</view>
-      <view class="f2_direction_information_p">具有美工基础和网页动画设计能力，掌握交互式网页程序的设计技术，能进行网站建设和维护。获取Mac-romedia媒体互动设计师或Delphi初级程序员。</view>
-      <view class="f2_direction_information_jobs_title">软件测试</view>
-      <view class="f2_direction_information_p">掌握软件测试的基本原理、方法和组织管理，精通软件测试工具。获取ATA软件测试工程师或Delphi初级程序员或Java初级程序员认证。 就业方向：企业、政府。</view>
-      <view class="f2_direction_information_jobs_title">数据库管理</view>
-      <view class="f2_direction_information_p">能应用关系范式进行数据库设计，精通SQL语言，胜任数据库服务器管理与应用工作。获取Oracle数据库管理或SQL Server数据库应用或Windows XP应用认证。</view>
-      <view class="f2_direction_information_jobs_title">图形图像制作</view>
-      <view class="f2_direction_information_p">精通国际上流行的图形/图像制作工具（如Corel-Draw、Photoshop、Pagemaker等）。获取平面设计师相关的认证。 就业方向：广告制作公司、、建筑设计公司、包装装璜设计公司、居室装修公司、出版印刷公司。</view>
+  <view class="f2_dirc_info_jobs">
+    <view style="width:90%; margin: 0 auto;" wx:for="{{jobDetails}}" wx:key="jobDetails.name" >
+      <view class="f2_dirc_info_jobs_title">{{item.name}}</view>
+      <view class="f2_dirc_info_p">{{item.introduction}}</view>
     </view>
   </view>
   
