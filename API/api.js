@@ -30,7 +30,7 @@ module.exports = {
 
   //学生信息查询接口
   getStudentInfo: (data) => {
-    return request('/studentInfo/' + data.stuNo)
+    return request('/studentInfo/' + data)
   },
 
   //课程信息接口，data说明：大一课程传入1，大二课程传入2，以此类推
