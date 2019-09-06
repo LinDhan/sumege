@@ -1,6 +1,7 @@
 // api.js
 
-const API_BASE_URL = 'http://node.fl123.xyz/weixin/api';
+const API_BASE_URL = 'https://www.fl123.xyz/weixin/api';  
+                     //'http://node.fl123.xyz/weixin/api';
 
 const request = (url) => {
 
