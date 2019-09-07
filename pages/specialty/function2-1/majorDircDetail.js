@@ -1,4 +1,4 @@
-// pages/spacialty/function2-1/majorDircDetail.js
+// pages/specialty/function2-1/majorDircDetail.js
 
 const API = require('../../../API/api');
 
@@ -20,7 +20,7 @@ Page({
       dircID: dircID //传到后台的参数，如果没有参数，则放空
     }).then(res => {
 
-      console.log(res)    //res是后台返回的数据
+      //console.log(res)    //res是后台返回的数据
       if (res!='') {
         this.setData({
           success: true,

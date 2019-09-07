@@ -1,4 +1,4 @@
-// pages/spacialty/function3-1/jobTrendDetail.js
+// pages/specialty/function3-1/jobTrendDetail.js
 
 //引入charts.js
 let Charts = require('../../../utils/wxcharts-min.js');
@@ -26,7 +26,7 @@ Page({
       jobsID: jobsID //传到后台的参数，如果没有参数，则放空
     }).then(res => {
 
-      console.log(res)    //res是后台返回的数据
+      //console.log(res)    //res是后台返回的数据
       if (res!='') {
         this.setData({
           success: true,
@@ -86,7 +86,7 @@ Page({
   //页面跳转事件
   goToLife: function() {
       wx.navigateTo({
-        url: '../../',
+        url: '../../society/society',
       })
   },
 

@@ -1,4 +1,4 @@
-// pages/spacialty/function3-1-1/jobTrendShare.js
+// pages/specialty/functionPage/functionPage.js
 Page({
 
   /**
