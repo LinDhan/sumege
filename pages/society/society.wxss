@@ -42,13 +42,4 @@ page{
 .photo{
   border-bottom: 1px solid #CACACA;
 }
-/*爱心图标*/
-.icon-love{
-  background-image: url(http://m.qpic.cn/psb?/V10gCV4v0eA0sv/12WpIUbZCMFIxY0GPSChWaV8.fCbALTVYmpl47MHLEY!/b/dL8AAAAAAAAA&bo=yADIAAAAAAADFzI!&rf=viewer_4);
-  background-size: cover;
-  display: inline-block;
-  width: 30rpx;
-  height: 30rpx;
-  margin-left: 90%;
-}
 

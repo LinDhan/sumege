@@ -1,0 +1,37 @@
+<!--  学习  -->
+<view wx:if="{{boolean==false}}">
+  <!--  顶部标题  -->
+  <view class="up-title" > 
+      <view class="btn-study" hover-class='style1' style="border-bottom: 4rpx solid #A25D6D;color:#A25D6D;">学习</view>
+      <text decode="true">&emsp;&emsp;</text>
+      <view hover-class='style1' bindtap="EventHandle">生活</view> 
+  </view>
+  <!--  图文并茂  -->
+  <view class='whole'>
+    <view class='single' wx:for="{{note1}}" wx:key="note1.url"id="{{index}}" bindtap="toStudy" >
+      <!--图片-->
+      <view class="photo"><image src='{{item.url}}' mode='widthFix'></image></view>
+      <!--标题-->
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+</view>
+
+<!--  生活  -->
+<view wx:if="{{boolean==true}}">
+  <!--  顶部标题  -->
+  <view class="up-title"> 
+      <view class="btn-study" hover-class='style1' bindtap="EventHandle">学习</view>
+      <text decode="true">&emsp;&emsp;</text>
+      <view hover-class='style1' style="border-bottom: 4rpx solid #A25D6D;color:#A25D6D;">生活</view>
+  </view>
+  <!--  图文并茂  -->
+  <view class='whole'>
+    <view class='single' wx:for="{{note2}}" wx:key="note2.url" id="{{index}}" bindtap="toLife" >
+      <!--图片-->
+      <view class="photo"><image src='{{item.url}}' mode='widthFix'></image></view>
+      <!--标题-->
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+</view>  
