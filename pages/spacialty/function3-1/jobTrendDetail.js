@@ -84,11 +84,11 @@ Page({
   },
 
   //页面跳转事件
-  goToLife: function() {
+ /* goToLife: function() {
       wx.navigateTo({
-        url: '../../',
+        url: '../../works/works',
       })
-  },
+  },*/
 
   /**
    * 生命周期函数--监听页面加载
