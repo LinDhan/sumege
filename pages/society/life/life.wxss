@@ -1,0 +1,39 @@
+/*文本颜色*/
+text{
+  color: #2D2D2D;
+  font-size: 32rpx;
+}
+
+/*文章标题样式*/
+.title-whole{
+  text-align: center;
+  font-size: 36rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  color:#A25D6D;
+  font-weight: bold;
+}
+/*图片样式*/
+.photo{
+ margin-top: 40rpx;
+ /*display:flex;                    
+ justify-content: center; */
+margin-left: 10%;
+margin-right:10%;
+}
+.photo image{
+  width:100%;
+}
+/*文案样式*/
+.passage{
+ margin-left: 10%;
+ margin-right:10%; 
+ margin-top: 20rpx;
+ margin-bottom: 20rpx;
+}
+.passage text{
+  line-height: 10rpx;
+  letter-spacing: 6rpx;
+  text-align: justify;
+}
+

@@ -1,0 +1,45 @@
+/*整个页面样式*/
+page{
+ font-size: 32rpx;
+ color: #2D2D2D;
+}
+/*顶部标题样式*/
+.up-title{
+  height: 60rpx;
+  width:1000rpx;
+  display: flex;
+  flex-direction: row;/*让多个容器在同一排显示*/
+  align-items: center;
+  background: #F0F2F5;
+  border:2rpx solid #E6E9F0;
+}
+/*按钮-学习样式*/
+.btn-study{
+  margin-left: 27%;
+}
+/*点击态样式*/
+.style1{
+  color: #A25D6D;
+}
+/*图文并茂样式*/
+.whole{
+  padding: 20rpx;
+  column-count: 2;/*分成两列*/
+  column-gap: 10rpx;
+}
+/*单个框样式*/
+.single{
+  break-inside: avoid; /*避免在元素内部插入分页符*/
+  padding: 20rpx;
+  border: 1px solid #CACACA;
+  border-radius: 10rpx;
+  margin-bottom: 10rpx;
+}
+.single image {
+  width: 100%;
+}
+/*图片下边框样式*/
+.photo{
+  border-bottom: 1px solid #CACACA;
+}
+
