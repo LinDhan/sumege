@@ -8,9 +8,9 @@
   </view>
   <!--  图文并茂  -->
   <view class='whole'>
-    <view class='single' wx:for="{{note1}}" wx:key="note1.url"id="{{index}}" bindtap="toStudy" >
+    <view class='single' wx:for="{{note1}}" wx:key="note1.image" id="{{index}}" data-studyID='{{item._id}}' data-studyTitle='{{item.title}}'bindtap="toStudy" >
       <!--图片-->
-      <view class="photo"><image src='{{item.url}}' mode='widthFix'></image></view>
+      <view class="photo"><image src='{{item.image}}' mode='widthFix'></image></view>
       <!--标题-->
       <text>{{item.title}}</text>
     </view>
@@ -27,9 +27,9 @@
   </view>
   <!--  图文并茂  -->
   <view class='whole'>
-    <view class='single' wx:for="{{note2}}" wx:key="note2.url" id="{{index}}" bindtap="toLife" >
+    <view class='single' wx:for="{{note2}}" wx:key="note2.image" id="{{index}}"data-lifeID='{{item._id}}' data-lifeTitle='{{item.title}}' bindtap="toLife" >
       <!--图片-->
-      <view class="photo"><image src='{{item.url}}' mode='widthFix'></image></view>
+      <view class="photo"><image src='{{item.image}}' mode='widthFix'></image></view>
       <!--标题-->
       <text>{{item.title}}</text>
     </view>

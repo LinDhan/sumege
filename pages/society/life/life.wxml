@@ -3,13 +3,17 @@
 <view class="title-whole">{{title_whole}}</view>
 
 <!--图片-->
-<view class="photo">
-  <image src="http://pic1.win4000.com/wallpaper/b/574403390c8b6.jpg" mode='widthFix'></image>
-</view>
+<!--<view class="photo">
+  <image src='{{image}}' mode='widthFix'></image>
+</view>-->
 
 <!--文案-->
-<view class="passage" wx:for="{{content}}">
+<!--<view class="passage" wx:for="{{content}}"  wx:key="content.passage">
   <text decode="true">&emsp;&emsp;{{item.passage}}</text>
+</view>-->
+
+<view class="passage">
+  <rich-text nodes="{{html}}"></rich-text>
 </view>
 
 
