@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/spacialty/functionPage/functionPage",
+    "pages/specialty/functionPage/functionPage",
     "pages/inquireResult/inquireResult",
     "pages/inquire/inquire",
     "pages/works/works",
@@ -8,13 +8,12 @@
     "pages/society/society",
     "pages/society/study/study",
     "pages/society/life/life",
-    "pages/spacialty/function1/classInfo",
-    "pages/spacialty/function1-1/classInfoDetail",
-    "pages/spacialty/function2/majorDirc",
-    "pages/spacialty/function2-1/majorDircDetail",
-    "pages/spacialty/function3/jobTrend",
-    "pages/spacialty/function3-1/jobTrendDetail",
-    "pages/spacialty/function3-1-1/jobTrendShare"
+    "pages/specialty/function1/classInfo",
+    "pages/specialty/function1-1/classInfoDetail",
+    "pages/specialty/function2/majorDirc",
+    "pages/specialty/function2-1/majorDircDetail",
+    "pages/specialty/function3/jobTrend",
+    "pages/specialty/function3-1/jobTrendDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,7 +26,7 @@
     "selectedColor": "#e85e5e",
     "list": [
       {
-        "pagePath": "pages/spacialty/functionPage/functionPage",
+        "pagePath": "pages/specialty/functionPage/functionPage",
         "text": "专业",
         "iconPath": "images/xiangqu.png",
         "selectedIconPath": "images/xiangqu2.png"

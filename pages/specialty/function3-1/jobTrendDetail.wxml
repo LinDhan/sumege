@@ -16,6 +16,5 @@
   </view>
 
   <view style="font-size:12px;">这里本来有“经验分享”文章区超链接，后来因为搬到社区，所以这里就取消</view>
-  <view style="font-size:12px;">点击这里获取更多就业经验分享（跳转到社区）</view>
-
+    <view style="font-size:12px;">点击这里获取更多就业经验分享（跳转到社区）</view>
 </view>

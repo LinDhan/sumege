@@ -1,4 +1,4 @@
-// pages/spacialty/function3/jobTrend.js
+// pages/specialty/function3/jobTrend.js
 
 //引入charts.js
 let Charts = require('../../../utils/wxcharts-min.js');
@@ -38,7 +38,7 @@ Page({
   getEmploymentRatio: function() {
     API.getEmploymentRatio().then(res => {
 
-      console.log(res)    //res是后台返回的数据
+      //console.log(res)    //res是后台返回的数据
       if (res!='') {
         this.setData({
           success: true,

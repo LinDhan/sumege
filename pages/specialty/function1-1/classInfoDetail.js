@@ -1,4 +1,4 @@
-// pages/spacialty/function1-1/classInfoDetail.js
+// pages/specialty/function1-1/classInfoDetail.js
 
 //接口
 const API = require('../../../API/api');
@@ -19,7 +19,7 @@ Page({
       gradeID: gradeID //传到后台的参数，如果没有参数，则放空
     }).then(res => {
 
-      console.log(res)    //res是后台返回的数据
+      //console.log(res)    //res是后台返回的数据
       if (res!='') {
         this.setData({
           success: true,
