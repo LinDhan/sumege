@@ -1,19 +1,33 @@
+const API = require('../../../API/api');
 Page({
   data: {
-    title_whole: '学生宿舍',
-    content: [//图片与段落
-      {
-        passage: '通过阅读胡因梦的《生命的不可思议》这本自传，我又知道了印度大师克里希那穆提，一个生平颇具传奇色彩，影响几代人的印度思想家。',
-      },
-      {
-        passage: '通过阅读克里希那穆提系列书籍，帮我打开了又一扇新世界的大门，我开始慢慢了解自己所处这个不断变化世界的实相，内在探索自身一直以来存在的模式，破除权回归本源，探索自己与这个世界和平相处的方法，收益良多!',
-      },
-      {
-        passage: '通过阅读克里希那穆提系列书籍，帮我打开了又一扇新世界的大门，我开始慢慢了解自己所处这个不断变化世界的实相，内在探索自身一直以来存在的模式，破除权回归本源，探索自己与这个世界和平相处的方法，收益良多!',
-      },
-
-    ]
+    title_whole: "",
+    html:""
 
   },
+  //生活文章详情接口,data为某一文章的id
+  getLifeArticle: function (life_ID) {
+    API.getLifeArticle(life_ID).then(res => {
+      console.log(res);    //res是后台返回的数据
+      if (res != '') {
+        this.setData({
+          title_whole: res.title,
+          html: res.body.replace('<img', '<img style="max-width:100%;height:auto" ') //防止富文本图片过大
+
+        })
+      }
+      else {
+        return false
+      }
+    })
+  },
+  /**
+    * 生命周期函数--监听页面加载
+    */
+  onLoad: function (options) {
+    this.getLifeArticle(options.life_ID)
+  },
+
+
 
 })
